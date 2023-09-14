@@ -16,7 +16,7 @@ const Course = () => {
 
     return (
         
-        <div className=' grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mx-5'>
+        <div className=' grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mx-5 ml-5'>
             {
                 course.map((course)=>( <div  key ={course.id}className="card card-compact w-96 bg-base-100 shadow-xl">
                 <img className='p-5' src={course.cover} alt="" />
