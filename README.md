@@ -1,11 +1,13 @@
-<h1>FAQ</h1>
 
-<div class="collapse bg-base-200">
-  <input type="radio" name="my-accordion-1" checked="checked" /> 
-  <div class="collapse-title text-xl font-medium">
-   I am a non csc student can i purshege c+ course
-  </div>
-  <div class="collapse-content"> 
-    <p>Yeah, you can purshege is course but you need focus daily 8 to 10 hour then you will successful</p>
-  </div>
-</div>
+
+<h1>Our Project feature</h1>
+<ul> 
+<li>Easy to purchase through online payment</li>
+<li>Off line video Download option</li>
+<li>Live support if you can't understand anything </li>
+
+</ul>
+
+<p>
+First, I have an import useState hook for my course.JSX file then I have declared a value for useState like const [value,setValue]=useState([]).After doing this i have used setValue to function .
+</p>

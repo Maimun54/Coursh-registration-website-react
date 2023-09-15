@@ -13,7 +13,7 @@ const Course = () => {
     const [addCourse,setAddCourse]=useState([]);
     const [totalprice,setTotalPrice]=useState(0)
     const [totalhour,setTotalHour]=useState(0);
-    const [remeninghr,setRemainngHr]=useState(0)
+    const [remeninghr,setRemainngHr]=useState(20)
     useEffect(()=>{
         fetch('data.json')
         .then(res=>res.json())
@@ -56,15 +56,15 @@ const Course = () => {
  
     return (
         
-        <div className='flex'>
-          <div className=' grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mx-5 ml-5'>
+        <div className='md:flex'>
+          <div className=' grid lg:grid-cols-2 xl:grid-cols-3 md:grid-cols-1 grid-cols-1 gap-5 mx-5 ml-5'>
             {
                 course.map((course)=>( <div  key ={course.id}className="card card-compact w-96 bg-base-100 shadow-xl">
                 <img className='p-5' src={course.cover} alt="" />
                 <ToastContainer position="top-center" />
                 <div className="card-body">
-                  <h2 className="card-title">Introduction to C Programming</h2>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <h2 className="card-title">{course.title}</h2>
+                  <p>{course.details}</p>
                   <div className='flex  gap-2'>
                               <img src="dollar.svg" alt="" />
                               

@@ -5,9 +5,9 @@ const Cart = ({addCourse,totalhour,remeninghr,totalprice}) => {
     return (
         
         <div>
-          <h3 className="my-5">Credit Hour Remaining {remeninghr} hr</h3>
+          <h2 className="my-5 font-medium">Credit Hour Remaining {remeninghr} hr</h2>
           <hr />
-          <h3>Course Name</h3>
+          <h2 className='font-bold '>Course Name</h2>
           <hr /> 
          
           {
