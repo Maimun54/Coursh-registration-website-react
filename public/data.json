@@ -1,6 +1,6 @@
 [
     {
-      "id": 1,
+      "id": 0,
       "cover": "https://i.ibb.co/8X02Nr3/Rectangle-2.png",
       "title": "Introduction to C Programming",
       "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -10,7 +10,7 @@
       "credit_hr": 3
     },
     {
-      "id": 2,
+      "id": 1,
       "cover": "https://i.ibb.co/9N5Cbrw/Rectangle-2-1.png",
       "title": "Introduction to Algorithms",
       "details": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -20,7 +20,7 @@
       "credit_hr": 4
     },
     {
-      "id": 3,
+      "id": 2,
       "cover": "https://i.ibb.co/0csKcv1/Rectangle-2-2.png",
       "title": "Introduction to C++ for DSA",
       "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
@@ -30,7 +30,7 @@
       "credit_hr": 2
     },
     {
-      "id": 4,
+      "id": 3,
       "cover": "https://i.ibb.co/vcSc7RT/Rectangle-2-3.png",
       "title": "Basic Data Structures",
       "details": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -40,7 +40,7 @@
       "credit_hr": 5
     },
     {
-      "id": 5,
+      "id": 4,
       "cover": "https://i.ibb.co/ggyN071/Rectangle-2-4.png",
       "title": "Introduction to OOP Python",
       "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -50,17 +50,17 @@
       "credit_hr": 1
     },
     {
-      "id": 6,
+      "id": 5,
       "cover": "https://i.ibb.co/YjFTfK5/Rectangle-2-5.png",
       "title": "Software Engineering",
       "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "favicon": "https://example.com/favicon6.png",
-      "price": 17.99,
+      "price": 23000,
       "icon_Mark": "https://example.com/icon6.png",
-      "credit_hr": 23000
+      "credit_hr": 10
     },
     {
-      "id": 7,
+      "id": 6,
       "cover": "https://i.ibb.co/yhtzfPB/Rectangle-2-6.png",
       "title": "Fake Data Item 7",
       "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -70,7 +70,7 @@
       "credit_hr": 4
     },
     {
-      "id": 8,
+      "id": 7,
       "cover": "https://i.ibb.co/qpnr2JT/Rectangle-3.png",
       "title": "Fake Data Item 8",
       "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
@@ -80,7 +80,7 @@
       "credit_hr": 2
     },
     {
-      "id": 9,
+      "id": 8,
       "cover": "https://i.ibb.co/MD2GTMq/Rectangle-3-1.png",
       "title": "Problem-Solving Part",
       "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",

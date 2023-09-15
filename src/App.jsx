@@ -1,7 +1,8 @@
 
 import './App.css'
-import Cart from './Compnents/Cart/Cart'
+
 import Course from './Compnents/Coursh/Course'
+
 import Header from './Compnents/Header/Header'
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Header></Header>
       <div className='flex'>
       <Course></Course>
-      <Cart></Cart>
+      
       </div>
       
     </>
