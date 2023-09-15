@@ -1,15 +1,28 @@
-# React + Vite
+<div class="collapse bg-base-200">
+  <input type="radio" name="my-accordion-1" checked="checked" /> 
+  <div class="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div class="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div class="collapse bg-base-200">
+  <input type="radio" name="my-accordion-1" /> 
+  <div class="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div class="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div class="collapse bg-base-200">
+  <input type="radio" name="my-accordion-1" /> 
+  <div class="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div class="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-Question
-<hr>
-
-Add at least 3 Project features
-
-Discuss how you managed the state in your assignment project.
