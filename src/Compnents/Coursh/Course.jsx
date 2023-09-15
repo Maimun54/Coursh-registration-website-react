@@ -26,7 +26,7 @@ const Course = () => {
   let creditCount = course.credit_hr;
   
   if(isTitle){
-    // return alert('Your are already purchase this course')
+    
     return toast("Your are already purchase this course !");
   }else{
     addCourse.forEach(item=>{
@@ -36,12 +36,12 @@ const Course = () => {
       count=count+pricevalue.price
     })
     
-    // const total = creditCount
+    
     const remainng= 20-creditCount;
   
     if(creditCount>20){
-      // return alert('You do not have a credit')
-      return toast("You do not have a credit !");
+      
+      return toast("You do not have a sufficient credit !");
     }else{
       setTotalHour(creditCount)
       setTotalPrice(count)
@@ -61,7 +61,7 @@ const Course = () => {
             {
                 course.map((course)=>( <div  key ={course.id}className="card card-compact w-96 bg-base-100 shadow-xl">
                 <img className='p-5' src={course.cover} alt="" />
-                <ToastContainer />
+                <ToastContainer position="top-center" />
                 <div className="card-body">
                   <h2 className="card-title">Introduction to C Programming</h2>
                   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>

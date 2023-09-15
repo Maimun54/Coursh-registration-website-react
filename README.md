@@ -1,28 +1,11 @@
+<h1>FAQ</h1>
+
 <div class="collapse bg-base-200">
   <input type="radio" name="my-accordion-1" checked="checked" /> 
   <div class="collapse-title text-xl font-medium">
-    Click to open this one and close others
+   I am a non csc student can i purshege c+ course
   </div>
   <div class="collapse-content"> 
-    <p>hello</p>
+    <p>Yeah, you can purshege is course but you need focus daily 8 to 10 hour then you will successful</p>
   </div>
 </div>
-<div class="collapse bg-base-200">
-  <input type="radio" name="my-accordion-1" /> 
-  <div class="collapse-title text-xl font-medium">
-    Click to open this one and close others
-  </div>
-  <div class="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-<div class="collapse bg-base-200">
-  <input type="radio" name="my-accordion-1" /> 
-  <div class="collapse-title text-xl font-medium">
-    Click to open this one and close others
-  </div>
-  <div class="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-
