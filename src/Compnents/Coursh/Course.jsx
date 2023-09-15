@@ -1,4 +1,5 @@
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import PropTypes from 'prop-types';
 import { useEffect } from 'react';
@@ -25,7 +26,8 @@ const Course = () => {
   let creditCount = course.credit_hr;
   
   if(isTitle){
-    return alert('Your are already purchase this course')
+    // return alert('Your are already purchase this course')
+    return toast("Your are already purchase this course !");
   }else{
     addCourse.forEach(item=>{
       creditCount =creditCount+item.credit_hr
@@ -38,7 +40,8 @@ const Course = () => {
     const remainng= 20-creditCount;
   
     if(creditCount>20){
-      return alert('You do not have a count')
+      // return alert('You do not have a credit')
+      return toast("You do not have a credit !");
     }else{
       setTotalHour(creditCount)
       setTotalPrice(count)
@@ -58,6 +61,7 @@ const Course = () => {
             {
                 course.map((course)=>( <div  key ={course.id}className="card card-compact w-96 bg-base-100 shadow-xl">
                 <img className='p-5' src={course.cover} alt="" />
+                <ToastContainer />
                 <div className="card-body">
                   <h2 className="card-title">Introduction to C Programming</h2>
                   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
